@@ -1,0 +1,51 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+.pycharm/
+
+# Ignore Jupyter Notebook files
+*.ipynb_checkpoints/
+*.ipynb-meta/
+
+# Ignore data files (add specific data files or directories as needed)
+data/raw/
+data/processed/
+
+# Ignore model files (add specific model files or directories as needed)
+models/
+
+# Ignore virtual environment files
+venv/
+env/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore credentials and secrets
+*.env
+**/.env
+
+# Ignore other unnecessary files
+node_modules/
+*.egg-info/
+dist/
+build/
+
+# Ignore Jupyter Notebook output files
+*.nbconvert/
+
+# Ignore matplotlib and seaborn cache files
+*.mplstyle
+*.cache/
+
+# Ignore scikit-learn and TensorFlow cache files
+*.pkl
+*.ckpt
